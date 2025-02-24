@@ -61,12 +61,6 @@ graph TD;
         I2
     end
 
-    %% ---- Styles for Clarity ---- %%
-    style A1 fill:#ffcccc,stroke:#333,stroke-width:2px;
-    style A2 fill:#ffcccc,stroke:#333,stroke-width:2px;
-    style A3 fill:#ffcccc,stroke:#333,stroke-width:2px;
-    style F2 fill:#bbddff,stroke:#333,stroke-width:2px;
-    style G1 fill:#ccffcc,stroke:#333,stroke-width:2px;
-    style I1 fill:#ffff99,stroke:#333,stroke-width:2px;
+   
 
 ```
