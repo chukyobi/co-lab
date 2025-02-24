@@ -19,7 +19,7 @@ graph TD;
     %% Cloud STT Processing %%
     C2 -->|Sends Audio Data| D2["Cloud AI Server"];
     D2 -->|Speech Recognition Model| D3["Cloud AI STT Engine"];
-    D3 -->|Returns Transcribed Text| D1;
+    D3 -->|Returns Transcribed Speech| D1;
 
     %% ---- NLP Processing ---- %%
     D1 -->|Grammar & Context Optimization| E1["NLP Processing API"];
@@ -30,7 +30,7 @@ graph TD;
     F1 -->|Show on Glasses| F2["🕶️ Augmented Reality Glass"];
 
     %% ---- Storage & User Preferences ---- %%
-    E2 -->|Store Data| G1["User Preferences Database"];
+    E2 -->|Store Data| G1["Preference Database"];
     G1 -->|Retrieve & Sync Settings| H1["Mobile App"];
     H1 -->|User Configures Settings| H2["User Interface"];
 
