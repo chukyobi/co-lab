@@ -26,3 +26,29 @@ sequenceDiagram;
     AR->>Glasses: Display Augmented Text
     Glasses->>User: User Reads the Text
 ```
+```mermaid
+graph LR;
+    User -->|Speaks| Microphone
+    Microphone -->|Captures Speech| STT["Speech-to-Text AI"]
+    STT -->|Processes & Converts| NLP["NLP Optimization"]
+    NLP -->|Optimized Text| AR["Augmented Reality Display"]
+    AR -->|Displays on Glasses| SmartGlasses["Smart Glasses"]
+    SmartGlasses -->|User Reads| User
+```
+```mermaid
+graph TD;
+    A["Start: Capture Audio"] --> B{"Is Speech Detected?"};
+    B -- "No" --> C["Wait for Input"];
+    B -- "Yes" --> D["Preprocessing & Noise Reduction"];
+    D --> E{"Use Local AI or Cloud Processing?"};
+    E -- "Local" --> F["Run STT Model On-Device"];
+    E -- "Cloud" --> G["Send Audio to Cloud AI"];
+    G --> H["Receive Transcribed Text"];
+    F --> H;
+    H --> I["Apply NLP Corrections"];
+    I --> J["Display on AR Screen"];
+    J --> K["End"];
+
+    style A fill:#ffcccc,stroke:#333,stroke-width:2px;
+    style K fill:#bbddff,stroke:#333,stroke-width:2px;
+```
