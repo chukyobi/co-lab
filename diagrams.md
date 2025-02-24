@@ -8,8 +8,7 @@ graph TD;
     C -->|Optional Processing| G["Cloud AI Server"];
     G -->|Enhanced Processing| D;
 
-    style A fill:#ffcccc,stroke:#333,stroke-width:2px;
-    style F fill:#bbddff,stroke:#333,stroke-width:2px;
+    
 
 
 ```
