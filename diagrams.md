@@ -39,7 +39,7 @@ graph TD;
     H1 -->|Connect to Smart Glasses| I2["Bluetooth/WiFi Service"];
 
     %% ---- Legend ---- %%
-    subgraph Legend[System Components]
+    
         A1
         A2
         A3
