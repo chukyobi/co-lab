@@ -7,5 +7,3 @@ graph TD;
     E -->|Text Overlay on Glasses| F[User Reads the Text];
     C -->|Optional Processing| G[Cloud AI Server];
     G -->|Enhanced Processing| D;
-    style A fill:#f9f,stroke:#333,stroke-width:2px;
-    style F fill:#bbf,stroke:#333,stroke-width:2px;
