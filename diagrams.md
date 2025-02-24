@@ -12,3 +12,17 @@ graph TD;
 
 
 ```
+```mermaid
+sequenceDiagram;
+    participant User
+    participant Glasses
+    participant Mic as Microphone
+    participant AI as AI Engine (STT & NLP)
+    participant AR as AR Display
+
+    User->>Mic: Speak
+    Mic->>AI: Capture & Process Speech
+    AI->>AR: Convert to Text & Optimize
+    AR->>Glasses: Display Augmented Text
+    Glasses->>User: User Reads the Text
+```
